@@ -16,12 +16,12 @@ const generateFavicons = () =>
     lang: config.i18n.locale.code,
     start_url: '.',
     icons: {
-      android: ['my-image.png', 'my-image.png'],
+      android: ['android-chrome-192x192.png', 'android-chrome-512x512.png'],
       windows: false,
       yandex: false,
       appleStartup: false,
-      appleIcon: ['my-image.png'],
-      favicons: ['my-image.png'],
+      appleIcon: ['apple-touch-icon.png'],
+      favicons: ['favicon-16x16.png', 'favicon-32x32.png', 'favicon.ico'],
     },
   });
 

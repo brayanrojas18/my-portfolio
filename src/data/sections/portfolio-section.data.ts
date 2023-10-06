@@ -79,7 +79,7 @@ const portfolioSectionData = {
     },
     {
       name: 'World Mining',
-      image: import('@/assets/portfolio/wm.png'),
+      image: import('@/assets/portfolio/WM.png'),
       dates: [new Date('2021-12'), new Date('2022-05')],
       details: [
         { label: 'Equipo', value: '7 personas' },
