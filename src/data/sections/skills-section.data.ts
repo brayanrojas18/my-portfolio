@@ -32,23 +32,14 @@ import {
   vue,
   node,
   quasar,
-  laravel,
-  php,
-  mysql,
-  loopback,
-  socket,
-  web3,
   mongoDb,
   js,
   angular,
   express,
-  graphql,
   three,
   java,
-  unity,
   c,
   wordpress,
-  html,
   css,
 } from '../helpers/skills';
 
@@ -70,7 +61,7 @@ const skillsSectionData = {
           level: 5,
         }),
         react({
-          level: 3,
+          level: 5,
         }),
         angular({
           level: 3,
@@ -79,7 +70,7 @@ const skillsSectionData = {
           level: 5,
         }),
         typescript({
-          level: 4,
+          level: 5,
         }),
         node({
           level: 5,
@@ -88,7 +79,10 @@ const skillsSectionData = {
           level: 5,
         }),
         nestJs({
-          level: 3,
+          level: 4,
+        }),
+        nextJs({
+          level: 4,
         }),
         loopback({
           level: 5,

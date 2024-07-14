@@ -318,3 +318,39 @@ export const cordova = createSkillFactory({
   iconColor: '#E8E8E8',
   url: '',
 });
+
+export const reactNative = createSkillFactory({
+  name: 'React Native',
+  icon: 'simple-icons:react',
+  iconColor: '#61DAFB',
+  url: 'https://reactjs.org/',
+});
+
+export const openAI = createSkillFactory({
+  name: 'Open AI',
+  icon: 'simple-icons:openai',
+  iconColor: '#412991',
+  url: '',
+});
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:amazonwebservices',
+  iconColor: '#232F3E',
+  url: '',
+});
+
+export const redux = createSkillFactory({
+  name: 'Redux',
+  icon: 'simple-icons:redux',
+  iconColor: '#764ABC',
+  url: '',
+});
+
+export const boostrap = createSkillFactory({
+  name: 'Bostrap',
+  icon: 'simple-icons:bootstrap',
+  iconColor: '#7952B3',
+  url: '',
+});
+

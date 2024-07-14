@@ -1,7 +1,6 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { github, instagram, twitter, website } from '../helpers/links';
-import { android, laravel, loopback } from '../helpers/skills';
 import {
   chakraUi,
   eslint,
@@ -11,9 +10,11 @@ import {
   nx,
   pnpm,
   react,
+  reactNative,
   reactQuery,
   tailwindCss,
   typescript,
+  android,
   vue,
   node,
   quasar,
@@ -26,6 +27,11 @@ import {
   socket,
   capacitor,
   cordova,
+  js,
+  redux,
+  boostrap,
+  openAI,
+  express
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -37,10 +43,79 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Senior front-end developer & Mobile developer',
+      company: 'SendingUp',
+      image: import('@/assets/logos/sendingup.png'),
+      dates: [new Date('2024-02'), null],
+      description: `
+        - Mejora funcional y legibilidad de código en el front-end.
+        - Implementación de nuevas funcionalidades y módulos.
+        - Correcciones de bugs.
+        - Mejora de UX.
+        - Desarrollo de aplicativo móvil (sendingup)
+      `,
+      tagsList: {
+        title: 'Tecnologías',
+        tags: [js(), typescript(), react(), reactNative(), redux(), boostrap(), openAI()],
+      },
+      links: [website({ url: 'https://sendingup.co/' })],
+    },
+    {
+      role: 'Senior full-stack developer',
+      company: 'Libro de Ruta',
+      image: import('@/assets/logos/libro.png'),
+      dates: [new Date('2024-03'), new Date('2024')],
+      description: `
+        - Implementación de nuevas funcionalidades y módulos.
+        - Correcciones de bugs.
+        - Mejora de UX.
+        - Implementacion de apis
+      `,
+      tagsList: {
+        title: 'Tecnologías',
+        tags: [typescript(), nextJs(), mysql(), node(), express()],
+      },
+      links: [website({ url: 'http://ec2-3-95-217-96.compute-1.amazonaws.com:3000/' })],
+    },
+    {
+      role: 'Senior full-stack mobile developer',
+      company: 'Libro de Ruta App (Uno Crono)',
+      image: import('@/assets/logos/uno.png'),
+      dates: [new Date('2024-04'), new Date('2024')],
+      description: `
+        - Desarrollo de todos los modulos.
+        - Implementeacion Websocket.
+        - Desarrollo de UX.
+        - Implementacion de apis
+      `,
+      tagsList: {
+        title: 'Tecnologías',
+        tags: [typescript(), vue(), quasar(), capacitor(), nestJs(), mysql(), socket()],
+      },
+      links: [website({ url: '' })],
+    },
+    {
+      role: 'Senior full-stack developer',
+      company: 'Appex',
+      image: import('@/assets/logos/appex.png'),
+      dates: [new Date('2024-03'), new Date('2024-04')],
+      description: `
+        - Desarrollo de todos los modulos.
+        - Implementeacion Firebase.
+        - Desarrollo de UX.
+        - Implementacion de apis Firebase
+      `,
+      tagsList: {
+        title: 'Tecnologías',
+        tags: [typescript(), vue(), quasar(), firebase()],
+      },
+      links: [website({ url: 'https://appex-403ab.web.app' })],
+    },
+    {
       role: 'Senior full-stack developer',
       company: 'Wondrix Latam',
       image: import('@/assets/logos/nomina.png'),
-      dates: [new Date('2018-11'), null],
+      dates: [new Date('2018-11'), new Date('2023-10')],
       description: `
         - Mejora funcional y legibilidad de código en el front-end y backend.
         - App hibrida (app y web) y API independiente para el uso de los usuarios (Empleados).
