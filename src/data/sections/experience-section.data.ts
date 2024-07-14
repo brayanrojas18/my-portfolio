@@ -64,7 +64,7 @@ const experienceSectionData = {
       role: 'Senior full-stack developer',
       company: 'Libro de Ruta',
       image: import('@/assets/logos/libro.png'),
-      dates: [new Date('2024-03'), new Date('2024')],
+      dates: [new Date('2024-02'), new Date('2024-06')],
       description: `
         - Implementación de nuevas funcionalidades y módulos.
         - Correcciones de bugs.
@@ -81,7 +81,7 @@ const experienceSectionData = {
       role: 'Senior full-stack mobile developer',
       company: 'Libro de Ruta App (Uno Crono)',
       image: import('@/assets/logos/uno.png'),
-      dates: [new Date('2024-04'), new Date('2024')],
+      dates: [new Date('2024-04'), new Date('2024-06')],
       description: `
         - Desarrollo de todos los modulos.
         - Implementeacion Websocket.
